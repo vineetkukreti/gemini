@@ -17,8 +17,8 @@ def get_gemini_response(question):
     response = model.generate_content(question)
     return response.text
 
-st.set_page_config(page_title="Q&A Demo")
-st.header("Gemini Application")
+st.set_page_config(page_title="vineetai")
+st.header("vineet AI Application")
 input = st.text_input("Input : ",key = "inputs")
 submit = st.button("Ask the question")
 
