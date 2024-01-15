@@ -20,6 +20,7 @@ st.set_page_config(
     page_title="VineetAI",
     page_icon="🌌",
     layout="wide",
+      bg_color="#FF0000"
 )
 
 # Custom styling for background color
