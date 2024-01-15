@@ -18,7 +18,7 @@ def get_gemini_response(question):
     return response.text
 
 st.set_page_config(page_title="vineetai")
-st.header("vineet AI Application")
+st.header("Chimti Application")
 input = st.text_input("Input : ",key = "inputs")
 submit = st.button("Ask the question")
 
