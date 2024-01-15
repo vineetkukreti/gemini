@@ -16,7 +16,27 @@ def get_gemini_response(question):
     return response.text
 
 # Set Streamlit page configuration
-st.set_page_config(page_title="VineetAI", page_icon="🌌")
+st.set_page_config(
+    page_title="VineetAI",
+    page_icon="🌌",
+    layout="wide",
+)
+
+# Custom styling for background color
+background_color = "#FF2400"  # Scarlet Red
+text_color = "#FFFFFF"  # White
+
+# Apply custom styling
+custom_style = f"""
+    <style>
+        body {{
+            background-color: {background_color};
+            color: {text_color};
+        }}
+    </style>
+"""
+
+st.markdown(custom_style, unsafe_allow_html=True)
 
 # Streamlit header and input field
 st.header("Chimti Application")
