@@ -19,8 +19,8 @@ def get_gemini_response(question):
 st.set_page_config(page_title="vineetai", page_icon="✨")
 
 # Page header and introduction
-st.title("Chimti Application")
-st.markdown("Welcome to Chimti, an interactive AI-powered Q&A application!")
+st.title("AI Application")
+st.markdown("Welcome to chat app, an interactive AI-powered Q&A application!")
 
 # Input field and submit button
 input_question = st.text_input("Input your question:", key="input_question")
