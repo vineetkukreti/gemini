@@ -36,7 +36,7 @@ if submit_button:
     st.success(response)
 
 # Add a footer for attribution or additional information
-st.text("Powered by Gemini Pro AI")
+
 
 # Optional: Add custom styling to the components for a more visually appealing design
 st.markdown(
