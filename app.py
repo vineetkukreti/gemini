@@ -24,6 +24,7 @@ st.markdown("Welcome to chat app, an interactive AI-powered Q&A application!")
 
 # Input field and submit button
 input_question = st.text_input("Input your question:", key="input_question")
+input_question = "give sentiment analysis of the provided test " + input_question
 submit_button = st.button("Ask the question")
 
 # When submit button is clicked
