@@ -24,7 +24,7 @@ st.markdown("Welcome to chat app, an interactive AI-powered Q&A application!")
 
 # Input field and submit button
 input_question = st.text_input("Input your question:", key="input_question")
-input_question = "give sentiment analysis of the provided test " + input_question
+input_question = "Conduct sentiment analysis on the following sentence and provide a one-word classification as either 'positive' or 'negative': 'Efforts to promote sustainable practices and reduce carbon emissions have gained widespread support among the global community" + input_question
 submit_button = st.button("Ask the question")
 
 # When submit button is clicked
